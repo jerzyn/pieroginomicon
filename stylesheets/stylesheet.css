@@ -61,7 +61,8 @@ a {
   background-size: cover; }
 
 .page-header.post {
-    padding: 1em 0
+    padding: 1em 0;
+    background-position-y: 18%;
   } 
 
 @media screen and (min-width: 64em) {
