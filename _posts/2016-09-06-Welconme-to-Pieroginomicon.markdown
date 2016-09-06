@@ -2,7 +2,7 @@
 layout: posts
 title:  "Welcome to the Pieroginomicon blog"
 date:   2016-09-06 18:51:15 +0300
-permalink: /:categories/:title.html
+permalink: /:year/:month/:day/:title
 categories: general
 ---
 
