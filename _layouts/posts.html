@@ -16,7 +16,9 @@
 
     <section class="main-content">
 
-      {{ content }}
+      <h2>{{ page.title }}</h2>
+      <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span
+        {{ content }}
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/jerzyn/pieroginomicon">Pieroginomicon</a> is maintained by <a href="https://github.com/jerzyn">jerzyn</a>.</span>
