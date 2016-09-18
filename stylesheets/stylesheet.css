@@ -21,6 +21,11 @@ a {
 .post-list li h2 {
   margin-top: 0;
 }
+.note {
+  padding: 0.5em 0.5em 0.5em 2em;
+  background: rgba(10,100,255,0.1);
+  border-left: 3px solid rgba(10,100,255, 0.5);
+}
 
 .btn {
   display: inline-block;
