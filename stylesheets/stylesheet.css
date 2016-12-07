@@ -266,35 +266,26 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
 
-a.tooltip span {
-    font-size: 10px;
-    position:absolute;
-    z-index: 999;
-    white-space:nowrap;
-    bottom:9999px;
-    left: 50%;
-    background:#000;
-    color:#e0e0e0;
-    padding:0px 7px;
-    line-height: 24px;
-    height: 24px;
-     
-    opacity: 0; 
-    transition:opacity 0.4s ease-out; 
-    }       
-     
-a.tooltip span::before {
-    content: "";
-    display: block;
-    border-left: 6px solid #000000;
-    border-top: 6px solid transparent;
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
     position: absolute;
-    top: -6px;
-    left: 0px;
-    }
-     
-a.tooltip:hover span {
-    opacity: 1;
-    bottom:-35px;
-    }
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
